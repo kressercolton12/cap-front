@@ -1,0 +1,18 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .left-content {
+        height: calc(100vh - 84px);
+        width: 100%;
+    }
+
+    .right-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+        font-size: 2em;
+    }
+}
