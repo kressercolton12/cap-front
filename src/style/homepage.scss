@@ -1,0 +1,29 @@
+.homepage {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 5%;
+    
+
+    .listen {
+        display: flex;
+        justify-content: center;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: 900;
+        font-size: 2em;
+        color: green;
+    }
+
+    .yt-vid {
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+        
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 3.5%;
+        
+    }
+}

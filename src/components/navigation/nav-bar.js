@@ -1,7 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router";
 import { NavLink } from "react-router-dom/cjs/react-router-dom";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import webLogo from "../../../static/assets/images/unnamed.jpg"
 
 export default function() {
     return (
@@ -31,6 +31,14 @@ export default function() {
                         Contact
                     </NavLink>
                 </div>
+            </div>
+            <div className="right">
+                <div className="ufl-logo"
+                    style={{
+                    background: "url(" + webLogo + ") no-repeat",
+                    backgroundPosition: "center"
+                    }}
+                />
             </div>    
         </div>    
     )
