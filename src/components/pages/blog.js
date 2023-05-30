@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import BlogItem from '../blog-item';
+
 
 
 
@@ -24,15 +26,17 @@ export default function Blog() {
             }); 
     };
 
+    function getBlogs() {
+        console.log("getblogs func")
+        return blogs.map((blog) => (
+            <BlogItem item = {blog}/>
+        ))
+    }
+
     return (
         <div>
             <h2>Blog content</h2>
-            {blogs.map((blog) => (
-                <div key={blog.id}>
-                    <h3>{blog.title}</h3>
-                    <p>{blog.content}</p>
-                </div>
-            ))};
+                {getBlogs()}
         </div>
 
     );
