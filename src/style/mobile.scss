@@ -1,0 +1,37 @@
+@media (max-width: 615px) {
+    .app {
+    .homepage {
+        padding: 50px 0px 10px;
+        height: 100%;
+
+        .yt-vid {
+
+            iframe {
+                height: 40vh;
+                width: 100%;
+            }
+        }
+
+        .listen {
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+        }
+    
+        .btn-container {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .about-content {
+        flex-direction: column;
+        width: 100%;
+
+        .left-content {
+
+        }
+    }
+  }
+}

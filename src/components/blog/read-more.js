@@ -20,7 +20,7 @@ const ReadMore = props => {
             <h2>{date}</h2>    
             <div>
               <Truncate
-              lines={6} ellipsis={
+              lines={3} ellipsis={
                 <span>...<Link to={`/b/${id}`}>Read More</Link></span>
             }>
                {striptags(text_field)} 

@@ -33,17 +33,16 @@ export default class BlogItem extends Component {
     render() {
         const {
             blog_title,
-            date,
             text_field,
             image_url
         } = this.state.singleItem;
         return(
+        <div className="single_blog_container">
             <div className="blog_info">
-            <h2>{this.state.cid}</h2>
-            {date}
-            {blog_title}
-            {text_field}
-            {image_url}
+            <div className="blog_title"><h2>{blog_title}</h2></div>
+            <a href={image_url}><img src={image_url}/></a>
+            <div className="text">{text_field}</div>
+            </div>
         </div>
       )
     }

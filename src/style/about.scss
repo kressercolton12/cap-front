@@ -1,11 +1,14 @@
-.content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.about-content {
+    display: flex;
+    align-items: center;
+    
+    
 
     .left-content {
         height: calc(100vh - 84px);
         width: 100%;
         box-shadow: 10px 10px 5px 4px rgba(0,128,0,0.71);
+        margin-left: 1.5%;
     }
 
     .right-content {

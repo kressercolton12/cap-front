@@ -3,7 +3,7 @@ import aboutPicture from '../../../static/assets/images/DSC03101.jpg'
 
 export default function() {
     return (
-        <div className='content'>
+        <div className='about-content'>
             <div className='left-content' style={{
                 background: "url(" + aboutPicture + ") no-repeat",
                 backgroundSize: "cover",

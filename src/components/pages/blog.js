@@ -35,9 +35,10 @@ export default function Blog() {
     }
 
     return (
-        <div>
-            <h2>Blog content</h2>
-                {getBlogs()}
+        <div className='blog-container'>
+            <div className='blog-items'>
+                <h3>{getBlogs()}</h3>
+            </div>
         </div>
 
     );
