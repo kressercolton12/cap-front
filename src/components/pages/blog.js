@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import BlogItem from '../blog-item';
+// import BlogItem from '../blog-item';
+import ReadMore from '../blog/read-more';
 
 
 
@@ -29,7 +30,7 @@ export default function Blog() {
     function getBlogs() {
         console.log("getblogs func")
         return blogs.map((blog) => (
-            <BlogItem item = {blog}/>
+            <ReadMore readMore = {blog} key={blog.id}/>
         ))
     }
 

@@ -5,6 +5,9 @@ import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Blog from './pages/blog';
+import Auth from './pages/auth';
+import BlogManager from './pages/blog_manager';
+import BlogItem from './blog-item';
 
 
 export default class App extends Component {
@@ -21,6 +24,12 @@ export default class App extends Component {
             <Route exact path="/contact" component={Contact} />
 
             <Route exact path="/blog" component={Blog} />
+
+            <Route exact path="/blog/manager" component={BlogManager} />
+
+            <Route exact path="/b/:slug" component={BlogItem} />
+
+            <Route exact path="/auth" component={Auth} />
           </Switch>
         </Router>
       </div>
