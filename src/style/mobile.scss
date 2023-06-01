@@ -25,13 +25,14 @@
         }
     }
 
+  }
     .about-content {
         flex-direction: column;
         width: 100%;
-
-        .left-content {
-
-        }
     }
-  }
+
+    .contact-content {
+        flex-direction: column;
+        width: 100%;
+    }
 }

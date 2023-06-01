@@ -9,7 +9,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function() {
     return (
-        <div className='content'>
+    <div className='contact-content'>
         <div className='left-content'
         style={{
             background: "url(" + contactPhoto + ") no-repeat",
@@ -39,11 +39,8 @@ export default function() {
                     </div>
                     <div className="text"><a target="_blank" href="https://www.facebook.com/Unfinishedlifestyle">Facebook</a>  <FontAwesomeIcon icon={faLink} /></div>
                 </div>
-
             </div>
-
         </div>
-
-        </div>
+    </div>
     );
 }
