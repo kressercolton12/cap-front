@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import BlogItem from '../blog-item';
 import ReadMore from '../blog/read-more';
 
 
@@ -32,7 +31,7 @@ export default function Blog() {
         return blogs.map((blog) => (
             <ReadMore readMore = {blog} key={blog.id}/>
         ))
-    }
+    };
 
     return (
         <div className='blog-container'>
@@ -40,6 +39,5 @@ export default function Blog() {
                 <h3>{getBlogs()}</h3>
             </div>
         </div>
-
     );
 }

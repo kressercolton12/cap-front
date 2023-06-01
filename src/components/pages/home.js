@@ -22,14 +22,14 @@ export default class Home extends Component {
                 <h2>THE UFL PODCAST</h2>
             </div>
             <div className='yt-vid'>
-            <iframe width="1080" 
-            height="620" 
-            src="https://www.youtube.com/embed/8_PDpZ5BC10" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen>
-            </iframe>
+                <iframe width="1080" 
+                height="620" 
+                src="https://www.youtube.com/embed/8_PDpZ5BC10" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+                </iframe>
             </div>
 
             <div className='listen'>

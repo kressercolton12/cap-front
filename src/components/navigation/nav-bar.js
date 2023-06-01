@@ -1,6 +1,5 @@
 import React from "react";
-import { withRouter } from "react-router";
-import { NavLink } from "react-router-dom/cjs/react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function() {
     return (
