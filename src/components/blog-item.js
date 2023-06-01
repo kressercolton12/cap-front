@@ -39,9 +39,9 @@ export default class BlogItem extends Component {
         return(
         <div className="single_blog_container">
             <div className="blog_info">
-            <div className="blog_title"><h2>{blog_title}</h2></div>
-            <a href={image_url}><img src={image_url}/></a>
-            <div className="text">{text_field}</div>
+                <div className="blog_title"><h2>{blog_title}</h2></div>
+                <div className="img"><a href={image_url}><img src={image_url}/></a></div>
+                <div className="text">{text_field}</div>
             </div>
         </div>
       )
