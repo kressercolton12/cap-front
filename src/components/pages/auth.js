@@ -16,7 +16,7 @@ export default function Auth() {
 
     const handleSubmit = async(event) => {
         event.preventDefault();
-        const response = await fetch("http://localhost:3000/auth", {
+        const response = await fetch("https://capstone-back-ck.herokuapp.com/auth", {
             method: 'POST',
             headers: {'Content-Type': 'application/JSON'},
             credentials: 'include',

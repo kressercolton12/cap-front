@@ -12,7 +12,7 @@ export default function Blog() {
     }, []);
 
     const filterBlogs = () => {
-        fetch("http://127.0.0.1:5000/blog/get")
+        fetch("https://capstone-back-ck.herokuapp.com/blog/get")
             .then((response) => response.json())
             .then((data) => {
                 const filterBlogs = data.filter((blog) => blog.status === 'published');

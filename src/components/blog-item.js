@@ -11,7 +11,7 @@ export default class BlogItem extends Component {
     } 
 
     getSingleItem() {
-        fetch(`http://127.0.0.1:5000/blog/get/${this.state.cid}`)
+        fetch(`https://capstone-back-ck.herokuapp.com/blog/get/${this.state.cid}`)
         .then(response => response.json())
         .then((data) => {
             console.log("getsingleitem", data)

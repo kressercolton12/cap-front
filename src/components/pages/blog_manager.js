@@ -27,7 +27,7 @@ export default class BlogManager extends Component {
     }
 
     handleSubmit(event) {
-        fetch("http://127.0.0.1:5000/blog/create", {
+        fetch("https://capstone-back-ck.herokuapp.com/blog/create", {
             method: 'POST',
             headers: {'content-type': 'application/json'},
             body: JSON.stringify({
